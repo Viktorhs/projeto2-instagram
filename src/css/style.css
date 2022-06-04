@@ -282,6 +282,11 @@ video {
     width: 56px;
 }
 
+.main-recommended img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
 .main-recommended div {
     margin: 0 0 0 17px;
 }
@@ -290,6 +295,10 @@ video {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+}
+
+.main-recommended h2:hover {
+ cursor: pointer;
 }
 
 .main-recommended p {
@@ -319,6 +328,10 @@ video {
     line-height: 14px;
 }
 
+.suggestion h3:hover {
+    cursor: pointer;
+}
+
 .recommended-box {
     display: flex;
     justify-content: space-between;
@@ -333,6 +346,11 @@ video {
     color: #139EF2;
 }
 
+.recommended-box h3:hover {
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
 .recommended-profile {
     display: flex;
     align-items: center;
@@ -341,6 +359,11 @@ video {
 
 .recommended-profile img {
     width: 32px;
+}
+
+.recommended-profile img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
 }
 
 .recommended-profile div {
@@ -352,6 +375,10 @@ video {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 6px;
+}
+
+.recommended-profile h2:hover {
+    cursor: pointer;
 }
 
 .recommended-profile p {
@@ -387,6 +414,92 @@ video {
 
 .bottom-bar {
     display: none;
+}
+
+.comment {
+    display: flex;
+    margin: 0 0 14px 15px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.more-comment {
+    margin: 0 0 14px 15px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+
+.more-comment h6 {
+    margin-bottom: 12px;
+}
+
+.more-comment h6:hover {
+    cursor: pointer;
+    filter: brightness(60%);
+    transition: 300ms;
+}
+
+.more-comment p {
+    font-size: 12px;
+}
+
+.add-comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid #DBDBDB;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.add-comment div {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.add-comment input {
+    width: 100%;
+    height: 42px;
+    margin:0 14px;
+    border: 0px solid #FFFFFF;
+}
+
+.add-comment input:focus {
+    outline: none;
+}
+
+.emojis {
+    font-size: 30px;
+}
+
+.add-comment button {
+    margin-right: 14px;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #B2DFFC;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.add-comment button:hover {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0095F6;
+    transition: 300ms;
 }
 
 @media (max-width: 935px) {
